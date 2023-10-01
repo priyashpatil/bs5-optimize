@@ -13,3 +13,8 @@
 | Base  |  222.11 KB | 91.94 KB |
 
 
+## Bootstrap + Vite
+
+|   | CSS | JS      |
+|---|-----|---------|
+| Base  |   225.78 KB | 82.41 KB |
