@@ -10,20 +10,20 @@
 
 ## Bootstrap + Parcel
 
-|                                  | CSS | JS       |
-|----------------------------------|-----|----------|
-| Base                             |  222.11 KB | 91.94 KB |
+|                                  | CSS       | JS       |
+|----------------------------------|-----------|----------|
+| Base                             | 222.11 KB | 91.94 KB |
 | Pricing Page                     | 222.11 KB | 93.43 KB |
-| Pricing Page (SASS Optimization) | 128.04 | 93.43 KB |
+| Pricing Page (SASS Optimization) | 128.04 KB   | 93.43 KB |
 
 
 ## Bootstrap + Vite
 
-|                                  | CSS | JS      |
-|----------------------------------|-----|---------|
-| Base                             |   225.78 KB | 82.41 KB |
+|                                  | CSS       | JS      |
+|----------------------------------|-----------|---------|
+| Base                             | 225.78 KB | 82.41 KB |
 | Pricing Page                     | 225.78 KB | 83.95 KB |
-| Pricing Page (SASS Optimization) | 128.50 | 93.43 KB |
+| Pricing Page (SASS Optimization) | 128.50 KB | 93.43 KB |
 
 ## PRs to send
 - Parcel Build Docs
