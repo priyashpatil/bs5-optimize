@@ -24,3 +24,7 @@
 | Base                             |   225.78 KB | 82.41 KB |
 | Pricing Page                     | 225.78 KB | 83.95 KB |
 | Pricing Page (SASS Optimization) | 128.50 | 93.43 KB |
+
+## PRs to send
+- Parcel Build Docs
+- Vite Build Docs
