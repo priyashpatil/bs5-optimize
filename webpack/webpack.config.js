@@ -1,9 +1,15 @@
 'use strict'
 
 const path = require('path')
+const glob = require("glob");
 const autoprefixer = require('autoprefixer')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const miniCssExtractPlugin = require('mini-css-extract-plugin')
+const {PurgeCSSPlugin} = require("purgecss-webpack-plugin");
+
+const PATHS = {
+    src: path.join(__dirname, "src"),
+};
 
 module.exports = {
     mode: 'development',
@@ -18,8 +24,14 @@ module.exports = {
         hot: true
     },
     plugins: [
-        new HtmlWebpackPlugin({ template: './src/index.html' }),
-        new miniCssExtractPlugin()
+        new HtmlWebpackPlugin({template: './src/index.html'}),
+        new miniCssExtractPlugin(),
+        new PurgeCSSPlugin({
+            paths: glob.sync(`${PATHS.src}/**/*`, {nodir: true}),
+            safelist: {
+                deep: [/dropdown-menu$/]
+            },
+        }),
     ],
     module: {
         rules: [

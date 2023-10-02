@@ -2,11 +2,12 @@
 
 ## Bootstrap + Webpack
 
-|                                  | CSS    | JS       |
-|----------------------------------|--------|----------|
-| Base                             | 227 KB | 78.7 KB  |
-| Pricing Page                     | 227 KB | 80 KB    |
-| Pricing Page (SASS Optimization) | 130 KB | 93.43 KB |
+|                                             | CSS     | JS       |
+|---------------------------------------------|---------|----------|
+| Base                                        | 227 KB  | 78.7 KB  |
+| Pricing Page                                | 227 KB  | 80 KB    |
+| Pricing Page (SASS Optimization)            | 130 KB  | 93.43 KB |
+| Pricing Page (SASS Optimization + PurgeCSS) | 22.5 KB | 93.43 KB |
 
 ## Bootstrap + Parcel
 
