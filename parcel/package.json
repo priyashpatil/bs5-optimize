@@ -5,6 +5,7 @@
   "scripts": {
     "start": "parcel serve src/index.html --public-url / --dist-dir dist",
     "build": "parcel build src/index.html --public-url / --dist-dir dist",
+    "optimize-css": "purgecss --config purgecss.config.js --output dist/",
     "express": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +13,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
     "@parcel/transformer-sass": "^2.9.3",
+    "@parcel/transformer-svg": "^2.9.3",
     "parcel": "^2.9.3"
   },
   "dependencies": {
