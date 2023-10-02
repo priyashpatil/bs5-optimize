@@ -6,6 +6,7 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
+    "optimize-css": "purgecss --config purgecss.config.js --output dist/assets/",
     "express": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
     "sass": "^1.68.0",
     "vite": "^4.4.9"
   },
