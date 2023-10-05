@@ -6,6 +6,8 @@ const autoprefixer = require('autoprefixer')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const miniCssExtractPlugin = require('mini-css-extract-plugin')
 const {PurgeCSSPlugin} = require("purgecss-webpack-plugin");
+const TerserPlugin = require('terser-webpack-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 const PATHS = {
     src: path.join(__dirname, "src"),
@@ -31,7 +33,7 @@ module.exports = {
             safelist: {
                 deep: [/dropdown-menu$/]
             },
-        }),
+        })
     ],
     module: {
         rules: [
@@ -63,5 +65,16 @@ module.exports = {
                 ]
             }
         ]
-    }
+    },
+    optimization: {
+        minimize: true,
+        minimizer: [
+            new TerserPlugin({
+                terserOptions: {
+                    compress: {},
+                },
+            }),
+            new CssMinimizerPlugin(),
+        ],
+    },
 }
