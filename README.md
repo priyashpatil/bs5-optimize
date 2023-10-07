@@ -35,4 +35,4 @@
 
 - Parcel Build Docs
 - Vite Build Docs
-- Bundler examples in Socs
+- Bundler examples in Docs
