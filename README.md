@@ -13,11 +13,12 @@
 
 ## Bootstrap + Parcel
 
-|                                             | CSS       | JS       |
-|---------------------------------------------|-----------|----------|
-| Pricing Page                                | 222.11 KB | 93.43 KB |
-| Pricing Page (SASS Optimization)            | 128.04 KB | 93.43 KB |
-| Pricing Page (SASS Optimization + PurgeCSS) | 26 KB     | 93.43 KB |
+|                                                | CSS       | JS       |
+|------------------------------------------------|-----------|----------|
+| Pricing Page                                   | 222.11 KB | 93.43 KB |
+| Pricing Page (SASS Optimization)               | 128.04 KB | 93.43 KB |
+| Pricing Page (SASS Optimization + PurgeCSS)    | 26 KB     | 93.43 KB |
+| SASS Optimization + PurgeCSS + JS Optimization | 26 KB     | 42.93 KB |
 
 ## Bootstrap + Vite
 
