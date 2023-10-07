@@ -2,7 +2,7 @@
 import '../scss/styles.scss'
 
 // Import all of Bootstrap's JS
-import * as bootstrap from 'bootstrap'
+import {Dropdown} from 'bootstrap/js/src/dropdown';
 
 /*!
  * Color mode toggler for Bootstrap's docs (https://getbootstrap.com/)

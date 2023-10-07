@@ -21,13 +21,15 @@
 | SASS Optimization + PurgeCSS + JS Optimization                       | 22.7 KB   | 44.3 KB  |
 | SASS Optimization + PurgeCSS + JS Optimization +  Compression (gzip) | 5.4 KB    | 16.2 KB  |
 
-## Bootstrap + Vite
+## Bootstrap + Vite (Has minification by default)
 
-|                                             | CSS       | JS       |
-|---------------------------------------------|-----------|----------|
-| Pricing Page                                | 225.78 KB | 83.95 KB |
-| Pricing Page (SASS Optimization)            | 128.50 KB | 83.95 KB |
-| Pricing Page (SASS Optimization + PurgeCSS) | 22.8 KB   | 83.95 KB |
+| Pricing Page (Bootstrap Example)                                     | CSS       | JS       |
+|----------------------------------------------------------------------|-----------|----------|
+| Base (No Optimizations)                                              | 225.78 KB | 83.95 KB |
+| SASS Optimization                                                    | 128.50 KB | 83.95 KB |
+| SASS Optimization + PurgeCSS                                         | 22.8 KB   | 83.95 KB |
+| SASS Optimization + PurgeCSS + JS Optimization                       | 22.8 KB   | 38.1 KB  |
+| SASS Optimization + PurgeCSS + JS Optimization +  Compression (gzip) | 5.6 KB    | 14.3 KB  |
 
 ## PRs to send
 
