@@ -3,5 +3,5 @@
    "transformers": {
        "scss": ["@parcel/transformer-sass"],
        "svg": ["@parcel/transformer-svg"]
-   }
+   },
 }
